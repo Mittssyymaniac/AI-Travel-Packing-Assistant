@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/yRzA3uZ.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background :linear-gradient(rgba(64, 30, 145, 0.925),rgb(58, 150, 211));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#weather-info {
+    margin-top: 20px;
+    height:auto ;
+    margin-left: 21%;
+    
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ecece7d3;
+    box-shadow: -60px -60px 30px grey;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+#packing-suggestions {
+    margin-top: 20px;
+
+    height:auto ;
+    text-align: center;
+    background-color: #ecece7d3;
+    max-width: 300px;
+    margin-left: 21%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+#weather-details {
+    text-align: center;
+
+}
+#packing-list {
+    text-align: center;
+    margin-left:17%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 6px;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    
+}
