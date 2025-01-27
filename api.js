@@ -32,7 +32,7 @@ document.getElementById("speak").addEventListener("click", () => {
 async function fetchWeather(location) {
   try {
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
     );
     const data = await response.json();
     if (data.cod !== 200) {
